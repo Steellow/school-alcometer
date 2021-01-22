@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Alcometer
 
 School project, nothing to see here.
