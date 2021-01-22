@@ -61,19 +61,11 @@ function App() {
       </div>
       <div>
         <label>Bottles</label>
-        <select name="bottles" value={bottles} onChange={(e) => setBottles(e.target.value)}>
-          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((number) => {
-            return <option value={number}>{number}</option>;
-          })}
-        </select>
+        <input name="bottles" type="number" value={bottles} onChange={(e) => setBottles(e.target.value)}></input>
       </div>
       <div>
         <label>Time</label>
-        <select name="time" value={time} onChange={(e) => setTime(e.target.value)}>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((number) => {
-            return <option value={number}>{number}</option>;
-          })}
-        </select>
+        <input name="time" type="number" value={time} onChange={(e) => setTime(e.target.value)}></input>
       </div>
       <div onChange={(e) => setGender(e.target.value)}>
         <label>Gender</label>
